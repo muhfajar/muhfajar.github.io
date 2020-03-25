@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Muhamad Fajar</title>
+    <link>https://muhfajar.id/en/categories/</link>
+    <description>Recent content in Categories on Muhamad Fajar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 25 Oct 2018 12:52:59 +0700</lastBuildDate>
+    
+	<atom:link href="https://muhfajar.id/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>programing language</title>
+      <link>https://muhfajar.id/en/categories/programing-language/</link>
+      <pubDate>Thu, 25 Oct 2018 12:52:59 +0700</pubDate>
+      
+      <guid>https://muhfajar.id/en/categories/programing-language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby</title>
+      <link>https://muhfajar.id/en/categories/ruby/</link>
+      <pubDate>Thu, 25 Oct 2018 12:52:59 +0700</pubDate>
+      
+      <guid>https://muhfajar.id/en/categories/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://muhfajar.id/en/categories/tech/</link>
+      <pubDate>Thu, 25 Oct 2018 12:52:59 +0700</pubDate>
+      
+      <guid>https://muhfajar.id/en/categories/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>etc</title>
+      <link>https://muhfajar.id/en/categories/etc/</link>
+      <pubDate>Wed, 24 Oct 2018 08:30:23 -0500</pubDate>
+      
+      <guid>https://muhfajar.id/en/categories/etc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

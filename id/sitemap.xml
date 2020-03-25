@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://muhfajar.id/posts/september/sunday/creating-a-new-theme/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/posts/march/monday/migrate-to-hugo-from-jekyll/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/categories/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://muhfajar.id/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://muhfajar.id/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/tag/etc/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://muhfajar.id/en/tag/etc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://muhfajar.id/tag/etc/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/categories/etc/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://muhfajar.id/en/categories/etc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://muhfajar.id/categories/etc/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/posts/october/wednesday/hello-world/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://muhfajar.id/en/posts/october/wednesday/hello-world/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://muhfajar.id/posts/october/wednesday/hello-world/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://muhfajar.id/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://muhfajar.id/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/posts/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://muhfajar.id/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://muhfajar.id/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/tags/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://muhfajar.id/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://muhfajar.id/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/posts/april/wednesday/hugo-template-primer/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/categories/development/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/tag/development/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/posts/april/wednesday/getting-started-with-hugo/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/tag/go/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/tag/golang/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/categories/golang/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/tag/hugo/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/tag/templates/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muhfajar.id/tag/themes/</loc>
+    <lastmod>2020-03-26T00:07:46+07:00</lastmod>
+  </url>
+  
+</urlset>

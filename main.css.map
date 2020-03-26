@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/muhfajar/Source/GitHub/muhfajar-hugo-now",
+	"sourceRoot": "/Users/muhfajar/Source/GitHub/muhfajar.id",
 	"sources": [
 		"themes/hello-friend-ng-fork/assets/scss/main.scss",
 		"themes/hello-friend-ng-fork/assets/scss/_normalize.scss",

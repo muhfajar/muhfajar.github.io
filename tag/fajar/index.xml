@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fajar on Muhamad Fajar</title>
+    <link>https://muhfajar.id/tag/fajar/</link>
+    <description>Recent content in fajar on Muhamad Fajar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/deed.id&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 09 Oct 2018 18:30:21 -0700</lastBuildDate>
+    
+	<atom:link href="https://muhfajar.id/tag/fajar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Résumé</title>
+      <link>https://muhfajar.id/resume/</link>
+      <pubDate>Tue, 09 Oct 2018 18:30:21 -0700</pubDate>
+      
+      <guid>https://muhfajar.id/resume/</guid>
+      <description>Muhamad Fajar : I write software. Usually in Ruby. Sometimes in Go, Python, PHP, or others. If you should desire to contact me, you can reach me using hi at this domain.
+Education  2010-2015  Faculty of Science and Technology; UIN Sunan Gunung Djati (Bandung, Indonesia)
+Major: Computer Science/Informatics
+  Experience  2018-present  GoTix Tech Lead/Software Engineer; GoTix is a movie &amp;amp; event discovery with on-demand ticket order services.</description>
+    </item>
+    
+    <item>
+      <title>Tentang Saya</title>
+      <link>https://muhfajar.id/about/</link>
+      <pubDate>Tue, 09 Oct 2018 18:30:21 -0700</pubDate>
+      
+      <guid>https://muhfajar.id/about/</guid>
+      <description>His name is Muhamad Fajar. Software engineer from Indonesia. On day-by-day his using technology stack such as Go, Python, Ruby or you can see more on him résumé page.
+Ruby Conf    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt nibh non orci consequat pretium id quis sem. Nulla ultrices tincidunt volutpat. Morbi lacinia ex in felis euismod, et aliquet purus sodales. In malesuada justo sagittis, convallis augue ac, consectetur neque.</description>
+    </item>
+    
+  </channel>
+</rss>

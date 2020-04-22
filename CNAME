@@ -1,1 +1,1 @@
-muhfajar.id
+muhfajar.blog

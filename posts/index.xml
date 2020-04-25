@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Muhamad Fajar</title><link>https://muhfajar.blog/posts/</link><description>Recent content in Posts on Muhamad Fajar</description><generator>Hugo -- gohugo.io</generator><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Wed, 24 Oct 2018 08:30:23 -0500</lastBuildDate><atom:link href="https://muhfajar.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating a New Theme</title><link>https://muhfajar.blog/posts/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://muhfajar.blog/posts/creating-a-new-theme/</guid><description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Muhamad Fajar</title><link>https://muhfajar.blog/posts/</link><description>Recent content in Posts on Muhamad Fajar</description><generator>Hugo -- gohugo.io</generator><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sat, 06 Jan 2018 12:52:59 +0700</lastBuildDate><atom:link href="https://muhfajar.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating a New Theme</title><link>https://muhfajar.blog/posts/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>https://muhfajar.blog/posts/creating-a-new-theme/</guid><description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.</p>
 <p>We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.</p>
@@ -940,7 +940,121 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 <p>You&rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&rsquo;t used, delete it.</p>
 <h2 id="a-practical-example-in-a-diff">A practical example in a diff</h2>
 <p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
-]]></content></item><item><title>Hello World</title><link>https://muhfajar.blog/posts/hello-world/</link><pubDate>Wed, 24 Oct 2018 08:30:23 -0500</pubDate><guid>https://muhfajar.blog/posts/hello-world/</guid><description>&amp;hellip;</description><content type="html">&lt;p>&amp;hellip;&lt;/p></content></item><item><title>(Hu)go Template Primer</title><link>https://muhfajar.blog/posts/hugo-template-primer/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://muhfajar.blog/posts/hugo-template-primer/</guid><description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+]]></content></item><item><title>Playing in Ruby Mine</title><link>https://muhfajar.blog/posts/playing-in-ruby-mine/</link><pubDate>Sat, 06 Jan 2018 12:52:59 +0700</pubDate><guid>https://muhfajar.blog/posts/playing-in-ruby-mine/</guid><description>I started as Ruby dev in my new job, previously I worked as PHP and Python dev and I found Ruby is slightly different sometimes especially with PHP. First time I read Ruby documentation, Ruby syntax is familiar, that looks like Python with some additional word every end of a function. For example:
+def foo(): print(&amp;#39;bar&amp;#39;) def foo puts &amp;#39;bar&amp;#39; end Okay for syntax, for framework Ruby have Rails (not only Rails actually, many framework out there) and when I came to my new job, I have only 3 days to learn what Ruby is and what is Rails, so basically I am learning by doing after my quick learn from digging up Ruby and Rails documentation.</description><content type="html"><![CDATA[<p>I started as Ruby dev in my new job, previously I worked as PHP and Python
+dev and I found Ruby is slightly different sometimes especially with PHP.
+First time I read Ruby documentation, Ruby syntax is familiar, that looks
+like Python with some additional word every end of a function. For example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">foo</span>():
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;bar&#39;</span>)
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">foo</span>
+    puts <span style="color:#e6db74">&#39;bar&#39;</span>
+<span style="color:#66d9ef">end</span>
+</code></pre></div><p>Okay for syntax, for framework Ruby have Rails (not only Rails actually, many
+framework out there) and when I came to my new job, I have only 3 days to learn
+what Ruby is and what is Rails, so basically I am learning by doing after my
+quick learn from digging up Ruby and Rails documentation.</p>
+
+<div class="giphy">
+    <iframe src="https://giphy.com/embed/13HBDT4QSTpveU" class="giphy__content" allowfullscreen scrolling="no" allow="encrypted-media"></iframe>
+</div>
+
+
+<p>On my first Jira task, I really struggle to find out <em>magic</em> behind Rails,
+a lot of class or module not implicitly import to another class, but I can
+use that class easily. Different with Django, you must import or define anything
+you plan to use. In Rails as long as your naming conventions follow documentation
+you can save a few lines of code (except you&rsquo;re using unofficial Rails Gem,
+you must import class using &lsquo;use&rsquo; command)</p>
+<h2 id="powerful-built-in-method">Powerful Built-in Method</h2>
+<h3 id="try-object">try() Object</h3>
+<p>Imagine, you don&rsquo;t to worry about how to handle <code>out of index array</code> in Rails,
+I just found how to handle array with elegance (yes, as you know, I just to
+know Ruby about 1 week since this post was done I write), just put object
+<code>try()</code> after that you don&rsquo;t to worry about the possibility of that object
+being <code>nil</code> and thus raising an exception. See code snip on below:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#f92672">[].</span>try(<span style="color:#e6db74">:[]</span>, <span style="color:#ae81ff">1</span>) <span style="color:#75715e"># =&gt; nil</span>
+<span style="color:#f92672">[</span><span style="color:#ae81ff">10</span><span style="color:#f92672">].</span>try(<span style="color:#e6db74">:[]</span>, <span style="color:#ae81ff">1</span>) <span style="color:#75715e"># =&gt; nil</span>
+<span style="color:#f92672">[</span><span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">20</span><span style="color:#f92672">].</span>try(<span style="color:#e6db74">:[]</span>, <span style="color:#ae81ff">1</span>) <span style="color:#75715e"># =&gt; 20</span>
+<span style="color:#f92672">[</span><span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">30</span><span style="color:#f92672">].</span>try(<span style="color:#e6db74">:[]</span>, <span style="color:#ae81ff">1</span>) <span style="color:#75715e"># =&gt; 20</span>
+
+{}<span style="color:#f92672">.</span>try(<span style="color:#e6db74">:foo</span>) <span style="color:#75715e"># =&gt; nil</span>
+{ <span style="color:#e6db74">foo</span>: <span style="color:#e6db74">&#39;bar&#39;</span> }<span style="color:#f92672">.</span>try(<span style="color:#e6db74">:foo</span>) <span style="color:#75715e"># =&gt; &#39;bar&#39;</span>
+</code></pre></div><p>Disclaimer: <code>try()</code> object is good to implement when you not have much time to
+validate all return came from other object, this will prevent your code from
+process break, but this technique is not a replacement for good techniques
+like validations and default database values.</p>
+<h3 id="rails-orm-active-record">Rails ORM: Active Record</h3>
+<p>What is ORM?</p>
+<blockquote>
+<p>Object-relational mapping (ORM, O/RM, and O/R mapping tool) in computer science
+is a programming technique for converting data between incompatible type systems
+using object-oriented programming languages. This creates, in effect, a &ldquo;virtual
+object database&rdquo; that can be used from within the programming language. There are
+both free and commercial packages available that perform object-relational mapping,
+although some programmers opt to construct their own ORM tools.<a href="https://en.wikipedia.org/wiki/Object-relational_mapping">[1]</a></p>
+</blockquote>
+<p>In the other word, ORM modified or retrieved by writing query statements, and it lets
+you interact with that data as though it was a normal Ruby object.</p>
+<p>For example from this query to fetch all data from <code>table</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-mysql" data-lang="mysql"><span style="color:#66d9ef">SELECT</span> <span style="color:#f92672">*</span> <span style="color:#66d9ef">FROM</span> <span style="color:#66d9ef">table</span>
+</code></pre></div><p>Active record (ORM in Rails) will wrap that into <code>all()</code> object.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">Table</span><span style="color:#f92672">.</span>all()
+</code></pre></div><h3 id="array-manipulation">Array Manipulation</h3>
+<p>Rails have bunched of method to make coding more fun, for manipulate array Rails have
+<code>select</code>, <code>each</code>, <code>map</code>, <code>reject</code> and <code>reduct</code>. Let&rsquo;s pick one sample to see what
+make this method so special.</p>
+<p>Case study:<br>
+We have dictionary of employee like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">employee <span style="color:#f92672">=</span> <span style="color:#f92672">[</span>
+  {
+    name: <span style="color:#e6db74">&#34;Andi&#34;</span>, 
+    <span style="color:#e6db74">title</span>: <span style="color:#e6db74">&#34;Software Engineer&#34;</span>,
+    <span style="color:#e6db74">probation</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#e6db74">salary</span>: <span style="color:#e6db74">&#34;1100&#34;</span> 
+  },  
+  {
+    name: <span style="color:#e6db74">&#34;Ipeh&#34;</span>, 
+    <span style="color:#e6db74">title</span>: <span style="color:#e6db74">&#34;Software Engineer&#34;</span>, 
+    <span style="color:#e6db74">probation</span>: <span style="color:#66d9ef">false</span>,
+    <span style="color:#e6db74">salary</span>: <span style="color:#e6db74">&#34;1200&#34;</span>
+  },  
+  {
+    name: <span style="color:#e6db74">&#34;Rojak&#34;</span>, 
+    <span style="color:#e6db74">title</span>: <span style="color:#e6db74">&#34;Junior Software Engineer&#34;</span>,
+    <span style="color:#e6db74">probation</span>: <span style="color:#66d9ef">true</span>,
+    <span style="color:#e6db74">salary</span>: <span style="color:#e6db74">&#34;800&#34;</span>
+  }
+<span style="color:#f92672">]</span>
+</code></pre></div><p>Next we want to sum all salary if employee has pass probation</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#75715e"># without each or select</span>
+
+e1 <span style="color:#f92672">=</span> employee<span style="color:#f92672">[</span><span style="color:#ae81ff">0</span><span style="color:#f92672">][</span><span style="color:#e6db74">:probation</span><span style="color:#f92672">]</span>
+e2 <span style="color:#f92672">=</span> employee<span style="color:#f92672">[</span><span style="color:#ae81ff">1</span><span style="color:#f92672">][</span><span style="color:#e6db74">:probation</span><span style="color:#f92672">]</span>
+e3 <span style="color:#f92672">=</span> employee<span style="color:#f92672">[</span><span style="color:#ae81ff">2</span><span style="color:#f92672">][</span><span style="color:#e6db74">:probation</span><span style="color:#f92672">]</span>
+
+total <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+
+<span style="color:#66d9ef">unless</span> e1
+    total <span style="color:#f92672">+=</span> employee<span style="color:#f92672">[</span><span style="color:#ae81ff">0</span><span style="color:#f92672">][</span><span style="color:#e6db74">:salary</span><span style="color:#f92672">].</span>to_i
+<span style="color:#66d9ef">end</span>
+
+<span style="color:#66d9ef">unless</span> e2
+    total <span style="color:#f92672">+=</span> employee<span style="color:#f92672">[</span><span style="color:#ae81ff">1</span><span style="color:#f92672">][</span><span style="color:#e6db74">:salary</span><span style="color:#f92672">].</span>to_i
+<span style="color:#66d9ef">end</span>
+
+<span style="color:#66d9ef">unless</span> e3
+    total <span style="color:#f92672">+=</span> employee<span style="color:#f92672">[</span><span style="color:#ae81ff">2</span><span style="color:#f92672">][</span><span style="color:#e6db74">:salary</span><span style="color:#f92672">].</span>to_i
+<span style="color:#66d9ef">end</span>
+
+puts total
+</code></pre></div><p>Let&rsquo;s compare if we use some handy method to manipulating array</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#75715e"># use reject, map and reduce</span>
+
+puts employee<span style="color:#f92672">.</span>reject{ <span style="color:#f92672">|</span>e<span style="color:#f92672">|</span> e<span style="color:#f92672">[</span><span style="color:#e6db74">:probation</span><span style="color:#f92672">]</span> }<span style="color:#f92672">.</span>map{ <span style="color:#f92672">|</span>y<span style="color:#f92672">|</span> y<span style="color:#f92672">[</span><span style="color:#e6db74">:salary</span><span style="color:#f92672">].</span>to_i }<span style="color:#f92672">.</span>reduce(<span style="color:#e6db74">:+</span>)
+</code></pre></div><p>This was my adventure using Ruby so far, that much more I guess when I start to
+building more complex application. See you next time!</p>
+]]></content></item><item><title>Hello World</title><link>https://muhfajar.blog/posts/hello-world/</link><pubDate>Tue, 24 Oct 2017 08:30:23 -0500</pubDate><guid>https://muhfajar.blog/posts/hello-world/</guid><description>&amp;hellip;</description><content type="html">&lt;p>&amp;hellip;&lt;/p></content></item><item><title>(Hu)go Template Primer</title><link>https://muhfajar.blog/posts/hugo-template-primer/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://muhfajar.blog/posts/hugo-template-primer/</guid><description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates.</description><content type="html"><![CDATA[<p>Hugo uses the excellent <a href="https://golang.org/">Go</a> <a href="https://golang.org/pkg/html/template/">html/template</a> library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of

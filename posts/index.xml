@@ -1026,7 +1026,7 @@ We have dictionary of employee like this:</p>
     <span style="color:#e6db74">salary</span>: <span style="color:#e6db74">&#34;800&#34;</span>
   }
 <span style="color:#f92672">]</span>
-</code></pre></div><p>Next we want to sum all salary if employee has pass probation</p>
+</code></pre></div><p>Next we want to sum all salary if employee has pass the probation</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#75715e"># without each or select</span>
 
 e1 <span style="color:#f92672">=</span> employee<span style="color:#f92672">[</span><span style="color:#ae81ff">0</span><span style="color:#f92672">][</span><span style="color:#e6db74">:probation</span><span style="color:#f92672">]</span>

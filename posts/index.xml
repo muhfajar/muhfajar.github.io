@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Muhamad Fajar</title><link>https://muhfajar.blog/posts/</link><description>Recent content in Posts on Muhamad Fajar</description><generator>Hugo -- gohugo.io</generator><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sat, 06 Jan 2018 12:52:59 +0700</lastBuildDate><atom:link href="https://muhfajar.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating a New Theme</title><link>https://muhfajar.blog/posts/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 16:08:01 +0700</pubDate><guid>https://muhfajar.blog/posts/creating-a-new-theme/</guid><description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Muhamad Fajar</title><link>https://muhfajar.blog/posts/</link><description>Recent content in Posts on Muhamad Fajar</description><generator>Hugo -- gohugo.io</generator><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sun, 25 Nov 2018 04:52:59 +0700</lastBuildDate><atom:link href="https://muhfajar.blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating a New Theme</title><link>https://muhfajar.blog/posts/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 16:08:01 +0700</pubDate><guid>https://muhfajar.blog/posts/creating-a-new-theme/</guid><description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.</p>
 <p>We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.</p>
@@ -940,6 +940,57 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 <p>You&rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&rsquo;t used, delete it.</p>
 <h2 id="a-practical-example-in-a-diff">A practical example in a diff</h2>
 <p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
+]]></content></item><item><title>Deployment Using Now and Cloudflare</title><link>https://muhfajar.blog/posts/deployment-using-now-and-cloudflare/</link><pubDate>Sun, 25 Nov 2018 04:52:59 +0700</pubDate><guid>https://muhfajar.blog/posts/deployment-using-now-and-cloudflare/</guid><description>:: this post has been updated with the latest update from Vercel (formerly ZEIT) I&amp;rsquo;ve been playing around with Now deployment for a few months. First I thought about Now is magic, with only small configuration (in v2) I can deploy a static website easily and with the latest update, now I can deploy (with default template) any static website without any configuration. That&amp;rsquo;s amazing.
+How to Deploy First thing, you need Vercel account, of course.</description><content type="html"><![CDATA[
+    <sub><sup>:: this post has been updated with the latest update from Vercel (formerly ZEIT)</sup></sub>
+
+
+<p>I&rsquo;ve been playing around with <a href="https://vercel.com/">Now</a> deployment for a few months.
+First I thought about Now is magic, with only small configuration (in v2)
+I can deploy a static website easily and with the latest update, now I can
+deploy (with default template) any static website without any configuration.
+That&rsquo;s amazing.</p>
+<h2 id="how-to-deploy">How to Deploy</h2>
+<p>First thing, you need Vercel account, of course. Next, if you use one of
+the templates from this <a href="https://github.com/zeit/now/tree/master/examples">list</a>, congratulation, you only need
+execute <code>now</code> from project root, something like this.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd my_project
+now
+</code></pre></div><p>That&rsquo;s it. For the rest let Now do the work.</p>
+<p>After your project has been deployed, you will be provided with a link to
+the Preview Deployment, this can be shared <strong>immediately</strong>.</p>
+<h2 id="how-to-use-cloudflare-with-now">How to Use Cloudflare with Now</h2>
+<p>Actually, Vercel have internal domain management, so you can directly buy
+domain inside Vercel dashboard. But if you want to set up domain setting
+using <a href="https://www.cloudflare.com/">Cloudflare</a> so you can set cache or other, this also
+simple. You just need register some DNS and encryption settings.</p>
+<h3 id="add-dns-records">Add DNS Records</h3>
+<p>To connecting Cloudflare with Vercel, you need add <code>CNAME</code> record
+with alias of <code>alias.zeit.co</code> so its traffic proxied through Cloudflare.
+Next, register domain to Vercel account using</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">now domains add your-domain-name.com
+</code></pre></div><p>when add the domain success, you will get a verification code for
+further to fill <code>TXT</code> record with name <code>_now</code>.</p>
+<p>After all records has been created, you need to verify domain using</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">now domains verify your-domain-name.com
+</code></pre></div><h3 id="make-https-works">Make HTTPS Works</h3>
+<p>In order to make https works you need change Cloudflare’s encryption mode
+to <strong>Full (strict)</strong> and then create page rules to make Enforce HTTPS
+for this domain:</p>
+<ol>
+<li>Go to page &ldquo;Create Page Rule&rdquo;</li>
+<li>Add new page rules with configuration like this:<br>
+URL: <strong>http://*your-domain-name.com/*</strong><br>
+The settings are: <strong>Always Use HTTPS</strong></li>
+<li>Save and Deploy</li>
+</ol>
+<h2 id="make-deploy-automatically">Make Deploy Automatically</h2>
+<p>If your project source code hosted on <a href="https://github.com/">GitHub</a>, <a href="https://about.gitlab.com/">GitLab</a>
+or <a href="https://bitbucket.org/product/">Bitbucket</a>, Vercel have tools to integrating with deploymant,
+so when you push code to the specific branch, Vercel will automatically
+detect changes and make a deployment. For more information,jump up to
+<a href="https://vercel.com/docs/v2/git-integrations">Vercel documentation</a>.</p>
+<p>End of word, yes, I&rsquo;m using Now in my <a href="https://muhfajar.id/">personal website landing</a>.</p>
 ]]></content></item><item><title>Playing in Ruby Mine</title><link>https://muhfajar.blog/posts/playing-in-ruby-mine/</link><pubDate>Sat, 06 Jan 2018 12:52:59 +0700</pubDate><guid>https://muhfajar.blog/posts/playing-in-ruby-mine/</guid><description>I started as Ruby dev in my new job, previously I worked as PHP and Python dev and I found Ruby is slightly different sometimes especially with PHP. First time I read Ruby documentation, Ruby syntax is familiar, that looks like Python with some additional word every end of a function. For example:
 def foo(): print(&amp;#39;bar&amp;#39;) def foo puts &amp;#39;bar&amp;#39; end For framework Ruby have Rails (not only Rails actually, many framework out there) and when I came to my new job, I have only 3 days to learn what Ruby is and what is Rails, so basically I am learning by doing after my quick learn from digging up Ruby and Rails documentation.</description><content type="html"><![CDATA[<p>I started as Ruby dev in my new job, previously I worked as PHP and Python
 dev and I found Ruby is slightly different sometimes especially with PHP.

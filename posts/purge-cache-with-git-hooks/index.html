@@ -10,7 +10,7 @@ success deploying, if you set Cloudflare cache to make your website
 faster I guess you will face issue relate with a cache.</p><p>First, if you push or make changes, your website not instantly follow
 the changes. From my experience that because of cache! So to handle
 this case we need to purge every time we make a change and Git have
-a handy tool to make it automatically, they call hooks.</p><blockquote><p>Git hooks are scripts that Git executes before or after events such
+a handy feature to make it automatically, they call hooks.</p><blockquote><p>Git hooks are scripts that Git executes before or after events such
 as: commit, push, and receive. Git hooks are a built-in feature - no
 need to download anything. Git hooks are run locally.<a href=https://githooks.com/>[1]</a></p></blockquote><p>To use this feature you only need to create a shell script and make
 it executable then put in hooks directory in .git on a project root.

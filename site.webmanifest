@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Muhamad Fajar",
+    "short_name": "muhfajar.blog",
     "icons": [
         {
             "src": "/android-chrome-144x144.png",
@@ -10,6 +10,6 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "start_url": "https://muhfajar.blog",
+    "start_url": "https://www.muhfajar.blog",
     "display": "standalone"
 }

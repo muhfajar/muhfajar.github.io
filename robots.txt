@@ -1,1 +1,6 @@
 User-agent: *
+
+Disallow: /settings/
+Disallow: /id/settings/
+Disallow: /en/settings/
+Sitemap: https://www.muhfajar.blog/sitemap.xml

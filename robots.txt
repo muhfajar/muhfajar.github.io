@@ -1,10 +1,1 @@
-<<<<<<< HEAD
 User-agent: *
-=======
-User-agent: *
-
-Disallow: /settings/
-Disallow: /id/settings/
-Disallow: /en/settings/
-Sitemap: https://www.muhfajar.blog/sitemap.xml
->>>>>>> 4074de3bb200838c0ef82156a0239ffb52fc54b0
